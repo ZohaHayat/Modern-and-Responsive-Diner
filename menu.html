@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachal's Diner - Today's Menu</title>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">S-Diner</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <!-- <li><a href="index.html">Home</a></li> -->
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#menu">Menu</a></li>
+            <li><a href="index.html#services">Service</a></li>
+            <li><a href="index.html#cta">Contact</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+    </header>
+
+<section class="meenu" id="meenu">
+    <div class="heading">
+        <span>Today's Menu</span>
+        <h2>Explore our delicious offerings</h2>
+    </div>
+    
+    <!-- Burgers Section -->
+    <div class="meenu-section">
+        <div class="box">
+            <div class="box-img">
+                <img src="img/food1.png" alt="Chicken Burger">
+            </div>
+            <h2>Chicken Burger</h2>
+            <h3>A delightful chicken burger that combines succulent chicken with flavorful toppings, creating a truly tasty experience.</h3>
+            <span>$11.00</span>
+            <a onclick="addToCart('Chicken Burger', 11.00)" class="cart"><img src="img/cart.png" class="icon-im"></a>
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="img/food2.png">
+            </div>
+            <h2>Special Beef Burger</h2>
+            <h3>Indulge in our special beef burger crafted with premium beef and a perfect blend of seasonings for an exceptional taste.</h3>
+            <span>$11.00</span>
+            <a onclick="addToCart('Special Beef Burger', 11.00)" class="cart"><img src="img/cart.png" class="icon-im"></a>
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="img/food3.png">
+            </div>
+            <h2>Chicken Fry Pack</h2>
+            <h3>Savor the crispy goodness of our chicken fry pack, featuring tender pieces of chicken fried to perfection.</h3>
+            <span>$11.00</span>
+            <a onclick="addToCart('Chicken Fry Pack', 11.00)" class="cart"><img src="img/cart.png" class="icon-im"></a>
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="img/fries.png">
+            </div>
+            <h2>French Fries</h2>
+            <h3>Crispy on the outside, fluffy on the inside our French fries are the perfect side dish to complement your meal.</h3>
+            <span>$5.00</span>
+            <a onclick="addToCart('French Fries', 5.00)" class="cart"><img src="img/cart.png" class="icon-im"></a>
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="img/coke.png">
+            </div>
+            <h2>Coca-Cola</h2>
+            <h3>Enjoy the classic and refreshing taste of Coca-Cola, a timeless beverage that complements any meal.</h3>
+            <span>$2.00</span>
+            <a onclick="addToCart('Coca-Cola', 2.00)" class="cart"><img src="img/cart.png" class="icon-im"></a>
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="img/sprite.png">
+            </div>
+            <h2>Sprite</h2>
+            <h3>Quench your thirst with the crisp and citrusy flavor of Sprite, an invigorating choice for a refreshing drink.</h3>
+            <span>$2.00</span>
+            <a onclick="addToCart('Sprite', 2.00)"  class="cart"><img src="img/cart.png" class="icon-im"></a>
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="img/fanta.png">
+            </div>
+            <h2>Fanta</h2>
+            <h3>Experience the fruity and vibrant taste of Fanta, a delightful beverage that adds a splash of joy to your day.</h3>
+            <span>$2.00</span>
+            <a onclick="addToCart('Fanta', 2.00)" class="cart"><img src="img/cart.png" class="icon-im"></a>
+        </div>
+    </div>
+</section>
+
+<!----footer start---->
+<section id="contact">
+    <div class="footer">
+        <div class="main">
+            <div class="col">
+                <h4>Menu Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#menu">Menu</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#cta">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Our Service</h4>
+                <ul>
+                    <li><a>Catering</a></li>
+                    <li><a>Event Management</a></li>
+                    <li><a>Food Blogging</a></li>
+                    <li><a>Restaurant</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="index.html#services">Delivery Information</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Contact Us On</h4>
+                <div class="social">
+                    <a><img src="img/fb.png" class="icon-img"></a>
+                    <a><img src="img/yt.png" class="icon-img"></a>
+                    <a><img src="img/insta.png" class="icon-img"></a>
+                    <a><img src="img/x.png" class="icon-img"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

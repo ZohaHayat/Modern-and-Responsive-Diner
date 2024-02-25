@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sachal's Diner</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">S-Diner</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <!-- <li><a href="index.html">Home</a></li> -->
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#menu">Menu</a></li>
+            <li><a href="index.html#services">Service</a></li>
+            <li><a href="index.html#cta">Contact</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+    </header>
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <span>Contact Us</span>
+            <h2>Have a question or feedback? Reach out to us!</h2>
+        </div>
+
+        <div class="contact-form">
+            <form id="contactForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+        </div>
+    </section>
+
+<!----footer start---->
+<section id="contact">
+    <div class="footer">
+        <div class="main">
+            <div class="col">
+                <h4>Menu Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#menu">Menu</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#cta">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Our Service</h4>
+                <ul>
+                    <li><a>Catering</a></li>
+                    <li><a>Event Management</a></li>
+                    <li><a>Food Blogging</a></li>
+                    <li><a>Restaurant</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="index.html#services">Delivery Information</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Contact Us On</h4>
+                <div class="social">
+                    <a><img src="img/fb.png" class="icon-img"></a>
+                    <a><img src="img/yt.png" class="icon-img"></a>
+                    <a><img src="img/insta.png" class="icon-img"></a>
+                    <a><img src="img/x.png" class="icon-img"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
