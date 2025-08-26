@@ -16,5 +16,5 @@ Check out the live deployed website here: [https://s-diner.netlify.app/](https:/
 ## Technologies Used
 - HTML5  
 - CSS3  
-- JavaScript (for interactivity, if applicable)  
+- JavaScript (for interactivity, if applicable)
 - Netlify (for deployment)  
